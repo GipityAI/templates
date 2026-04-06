@@ -39,7 +39,16 @@ import {
 
 ## What is Gipity?
 
-[Gipity](https://gipity.ai) is an AI-native platform for building and deploying apps. Your AI agent writes the code, Gipity handles the infrastructure. Get started: `npm install -g gipity && gipity start-cc`
+[Gipity](https://gipity.ai) is an AI agent with 64+ built-in tools and its own cloud infrastructure. It can write code, run it, deploy it, manage databases, browse the web, generate images, send emails, and more — autonomously.
+
+Use all of it or just the parts you need:
+
+- **Supercharge Claude Code** — add databases, deployment, browser testing, image gen, and 30+ other tools to your local workflow
+- **Automate tasks** — scheduled workflows that research, process, and act without you
+- **Build and host apps** — from idea to live URL in one conversation
+- **Mix and match** — use Gipity tools from Claude Code locally, or let the Gipity agent handle everything in the cloud
+
+**Get started:** `npm install -g gipity && gipity start-cc`
 
 ## License
 

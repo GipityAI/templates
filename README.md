@@ -57,9 +57,14 @@ These templates are designed for the Gipity platform, but the engine code is sta
 
 ## What is Gipity?
 
-[Gipity](https://gipity.ai) is an AI-native platform for building and deploying apps. Every project gets its own cloud infrastructure — hosting, databases, file storage, sandboxed code execution, multiplayer rooms, and a personal AI agent — with zero setup.
+[Gipity](https://gipity.ai) is an AI agent with 64+ built-in tools and its own cloud infrastructure. It can write code, run it, deploy it, manage databases, browse the web, generate images, send emails, and more — autonomously.
 
-There's no IDE. Your AI agent is the interface. Describe what you want, and it builds it. Works with [Claude Code](https://claude.ai/claude-code) locally or through the Gipity web agent.
+Use all of it or just the parts you need:
+
+- **Supercharge Claude Code** — add databases, deployment, browser testing, image gen, and 30+ other tools to your local workflow
+- **Automate tasks** — scheduled workflows that research, process, and act without you
+- **Build and host apps** — from idea to live URL in one conversation
+- **Mix and match** — use Gipity tools from Claude Code locally, or let the Gipity agent handle everything in the cloud
 
 **Get started:** `npm install -g gipity && gipity start-cc`
 
