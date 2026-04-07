@@ -6,7 +6,7 @@
   <title>3D World</title>
   <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon-192.png">
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
-  <link rel="stylesheet" href="/3d-world/fw/__FW_VERSION__/css/engine.css">
+  <link rel="stylesheet" href="./template/css/engine.css">
   <link rel="stylesheet" href="./css/game.css">
 </head>
 <body>
@@ -47,14 +47,13 @@
     "imports": {
       "three": "https://cdn.jsdelivr.net/npm/three@0.183.2/build/three.module.js",
       "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/",
-      "@dimforge/rapier3d": "https://cdn.jsdelivr.net/npm/@dimforge/rapier3d-compat@0.19.3/rapier.mjs",
-      "./template/": "/3d-world/fw/__FW_VERSION__/"
+      "@dimforge/rapier3d": "https://cdn.jsdelivr.net/npm/@dimforge/rapier3d-compat@0.19.3/rapier.mjs"
     }
   }
   </script>
 
-  <!-- Framework (read-only, served from shared CDN path) -->
-  <script type="module" src="/3d-world/fw/__FW_VERSION__/js/core.js"></script>
+  <!-- Framework (read-only, refreshed on deploy) -->
+  <script type="module" src="./template/js/core.js"></script>
 
   <!-- Game code (editable) -->
   <script type="module" src="./js/game.js"></script>
