@@ -1,6 +1,6 @@
 # Gipity Templates
 
-Project templates for [Gipity](https://gipity.ai) — the AI-native app platform. Tell your AI agent what to build, and it handles the rest: code, hosting, databases, deployment, multiplayer, and more.
+Project templates for [Gipity](https://gipity.ai) — an AI agent with 90+ tools and a full cloud platform. Tell your AI agent what to build, and it handles the rest: code, hosting, databases, deployment, multiplayer, and more.
 
 Templates are the starting points. Each one is a production-ready scaffold with a locked engine and open game/app logic. Your AI agent (or you) writes the creative part — the template handles the infrastructure.
 
@@ -8,12 +8,12 @@ Templates are the starting points. Each one is a production-ready scaffold with 
 
 ### 3D World
 
-A 3D multiplayer voxel engine for building games, social spaces, chat rooms, and interactive worlds.
+A 3D multiplayer engine for building games, social spaces, chat rooms, and interactive worlds.
 
 **Stack:** Three.js (rendering) + Rapier (physics) + Colyseus (multiplayer networking)
 
 **What you get:**
-- Real-time 3D rendering with voxel art style
+- Real-time 3D rendering
 - Physics (gravity, collisions, constraints)
 - Multiplayer out of the box (rooms, state sync, player identity)
 - Camera modes (orbit, first-person, top-down, fixed)
@@ -57,14 +57,11 @@ These templates are designed for the Gipity platform, but the engine code is sta
 
 ## What is Gipity?
 
-[Gipity](https://gipity.ai) is an AI agent with 64+ built-in tools and its own cloud infrastructure. It can write code, run it, deploy it, manage databases, browse the web, generate images, send emails, and more — autonomously.
+Most AI tools give you a chatbot. We gave ours a computer.
 
-Use all of it or just the parts you need:
+[Gipity](https://gipity.ai) is an AI agent with 90+ tools and a full cloud platform behind it — app hosting, databases, file storage, deployment, scheduled workflows, and sandboxed code execution. No setup. No API keys. No config files.
 
-- **Supercharge Claude Code** — add databases, deployment, browser testing, image gen, and 30+ other tools to your local workflow
-- **Automate tasks** — scheduled workflows that research, process, and act without you
-- **Build and host apps** — from idea to live URL in one conversation
-- **Mix and match** — use Gipity tools from Claude Code locally, or let the Gipity agent handle everything in the cloud
+Describe what you want. Your agent writes the code, builds the app, sets up the database, deploys it to a live URL, and keeps it running. From idea to production in one conversation.
 
 **Get started:** `npm install -g gipity && gipity start-cc`
 

@@ -1,8 +1,8 @@
 # 3D World Template
 
-A 3D multiplayer voxel engine for building games, social spaces, and interactive worlds on [Gipity](https://gipity.ai).
+A 3D multiplayer engine for building games, social spaces, and interactive worlds on [Gipity](https://gipity.ai).
 
-Built on **Three.js** (rendering) + **Rapier** (physics) + **Colyseus** (multiplayer). High-res voxel art style with sub-voxel detail (3x3x3 grid per part).
+Built on **Three.js** (rendering) + **Rapier** (physics) + **Colyseus** (multiplayer). Stylized 3D with sub-voxel detail (3x3x3 grid per part).
 
 ## Engine Modules
 
@@ -39,14 +39,11 @@ import {
 
 ## What is Gipity?
 
-[Gipity](https://gipity.ai) is an AI agent with 64+ built-in tools and its own cloud infrastructure. It can write code, run it, deploy it, manage databases, browse the web, generate images, send emails, and more — autonomously.
+Most AI tools give you a chatbot. We gave ours a computer.
 
-Use all of it or just the parts you need:
+[Gipity](https://gipity.ai) is an AI agent with 90+ tools and a full cloud platform behind it — app hosting, databases, file storage, deployment, scheduled workflows, and sandboxed code execution. No setup. No API keys. No config files.
 
-- **Supercharge Claude Code** — add databases, deployment, browser testing, image gen, and 30+ other tools to your local workflow
-- **Automate tasks** — scheduled workflows that research, process, and act without you
-- **Build and host apps** — from idea to live URL in one conversation
-- **Mix and match** — use Gipity tools from Claude Code locally, or let the Gipity agent handle everything in the cloud
+Describe what you want. Your agent writes the code, builds the app, sets up the database, deploys it to a live URL, and keeps it running. From idea to production in one conversation.
 
 **Get started:** `npm install -g gipity && gipity start-cc`
 
