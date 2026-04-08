@@ -2,7 +2,7 @@
 
 Project templates for [Gipity](https://gipity.ai) — an AI agent with 90+ tools and a full cloud platform. Tell your AI agent what to build, and it handles the rest: code, hosting, databases, deployment, multiplayer, and more.
 
-Templates are the starting points. Each one is a production-ready scaffold with a locked engine and open game/app logic. Your AI agent (or you) writes the creative part — the template handles the infrastructure.
+Templates are the starting points. Each one is a production-ready scaffold with all files fully editable. Your AI agent (or you) writes the creative part — the template handles the infrastructure.
 
 ## Available Templates
 
@@ -35,19 +35,28 @@ app_scaffold type=3d-world title="My World"
 **Project structure:**
 ```
 src/
-  template/         # Engine (read-only, updated on deploy)
-    js/             # core, world, physics, assets, player, network, ui, primitives, constraints
-    css/            # engine styles
   js/
+    core.js         # Engine — game loop, boot, module exports
+    world.js        # Three.js scene, renderer, lighting
+    physics.js      # Rapier physics world
+    assets.js       # CDN asset loader
+    player.js       # Character controller, camera
+    network.js      # Colyseus multiplayer
+    ui.js           # HUD, loading screen
+    primitives.js   # Part system, workspace, snap
+    constraints.js  # Weld, hinge, spring joints
     config.js       # Game metadata (title, version)
     settings.js     # Tunable values (speed, gravity, etc.)
     strings.js      # Display text
     objects.js      # Entity factories
     game.js         # Game orchestrator — your main logic
+  css/
+    engine.css      # Engine UI styles
+    game.css        # Your custom styles
   index.html
 ```
 
-Files in `src/template/` are managed by the engine — don't edit them. Everything else is yours.
+All files are fully editable.
 
 *More templates coming soon: web app, mobile game, enterprise web app, and more.*
 
