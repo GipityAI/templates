@@ -72,7 +72,7 @@ Most AI tools give you a chatbot. We gave ours a computer.
 
 Describe what you want. Your agent writes the code, builds the app, sets up the database, deploys it to a live URL, and keeps it running. From idea to production in one conversation.
 
-**Get started:** `npm install -g gipity && gipity start-cc`
+**Get started:** `npm install -g gipity && gipity claude`
 
 ## License
 
